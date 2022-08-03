@@ -408,7 +408,7 @@ footer h3 {
 
 .container-img ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 15px;
 }
 
@@ -418,3 +418,91 @@ footer h3 {
 }
 
 /* *************** MEDIA QUERIES *************** */
+
+@media screen and (max-width: 930px) {
+    
+    nav li {
+        font-size: 0.7rem;
+    }
+
+    .main-header img {
+        width: 60%;
+    }
+
+    .medias-text {
+        padding-left: 15px;
+    }
+
+    .medias-logos span {
+        padding: 5px;
+    }
+
+    .container-img ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+/* ************* MOBILE ************* */
+
+@media screen and (max-width: 750px) {
+    
+    nav li {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .icon-part-container {
+        display: block;
+    }
+
+    .main-header h1 {
+        font-size: 1rem;
+    }
+
+    .lip-logo {
+        padding-top: 25px;
+    }
+
+    .header-news {
+        display: block;
+    }
+
+    .left-part h1 , .left-part p  {
+        text-align: center;
+    }
+
+    .main-news-container {
+        display: block;   
+    }
+
+    .new {
+        max-width: 90%;
+        margin: 0 auto;
+      }
+    
+    .mn-pic  {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .new p {
+        padding-bottom: 50px;
+      }
+
+    footer h3 {
+        font-size: 0.8rem;
+      }
+
+    .container-img ul {
+        flex-wrap: wrap;
+      }
+    footer li {
+        margin: 5px;
+    }  
+
+}
